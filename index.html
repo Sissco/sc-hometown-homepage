@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="media-queries.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav id="nav">
+    <h2 class="disable-selection">Visit Lisbon</h2>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#activities">Activities</a></li>
+      <li><a href="#guide">Your Guide</a></li>
+      <li><a href="#contact-us">Be In Touch</a></li>
+    </ul>
+
+  </nav>
+  <!-- HERO -->
+  <section class="hero disable-selection" id="hero">
+    <h1>Visit Lisbon</h1>
+    <h2>Enjoy the city of the Seven Hills <br> Europe’s most vibrant and beautiful cosmopolitan city</h2>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section class="activities disable-selection" id="activities">
+    <h2>City of Music, Culture and Nightlife<h2>
+      <div class="activities-wrapper">
+        <div class="activity">
+          <img src="/assets/alfama-miradouro-de-santa-luzia.jpeg" alt="Miradouro de Santa Luzia Square in Alfama, featuring a rose field, trees, people gathering and a church">
+          <h5>Visit Alfama</h5>
+          <p>Culturally rich and charming part of Lisbon, with Visigothic roots and Arabic influence</p>
+        </div>
+
+        <div class="activity">
+          <img src="/assets/mosteiro-dos-jeronimos.jpeg" alt="View from of Mosteiro dos Jeronimos's facade from the garden in Belém in front of the building, Lisbon">
+          <h5>Mosteiro dos Jerónimos</h5>
+          <p>An architectural achievement on the banks of the Tagus, a World Heritage Site built five hundred + years ago with notable facades, church and cloisters.</p>
+        </div>
+
+        <div class="activity">
+          <img src="/assets/bairro-alto-nightlife-_-park-1.jpeg" alt="View from a rooftop in Lisbon at night illuminating nightlife and 25 de Abril bridge in Lisbon">
+          <h5>visit Alfama</h5>
+          <p>Restaurants, fado music, city lights, clubs, the  LX Factory. Bairro alto remaining the city’s best destination for a good night out.</p>
+        </div>
+      </div>
+
+    </section>
+    <!-- GUIDE -->
+    <section class="guide disable-selection" id="guide">
+      <div class="guide-wrapper">
+        <img src="/assets/francisco-guide-profile.jpg" alt="A profile picture of your guide">
+        <div class="guide-info">
+          <h3>Your guide</h3>
+          <p>Born in Lisbon, I will take you to the most breathtaking places and dive into the little secrets that this city has to offer.</p>
+          <h5>Francisco Martins</h5>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT US -->
+    <section class="contact-us" id="contact-us">
+      <h1>Be in touch</h1>
+      <div class="form-wrapper">
+        <p class="disable-selection">Be in touch if you would like to know more about reservations, booking, tour guide routes, prices and other info.
+          <br><span class="underline">We aim to reply in a day.</span></p>
+
+          <form class="contact-us-form" id="form1" action="https://formspree.io/f/xrgdgonv" method="POST" target="_blank" onsubmit="resetVal()">
+            <label for="email" class="disable-selection">Email</label>
+            <input type="email" id="email" name="email" placeholder="Write your email here" required>
+            <label for="message-textbox" class="disable-selection">Message</label>
+            <textarea type="text" id="message-textbox" name="textarea" placeholder="Write your message here" maxlength="1500" required></textarea>
+            <span class="disable-selection" id="char_count">0/1500</span>
+          </form>
+
+        </div>
+        <button type="submit" class="submit-btn" name="button" form="form1" >Send message</button>
+      </section>
+
+      <footer class="disable-selection">
+        <span>&copy; Copyright 2022</span>
+      </footer>
+      <span><a href="#nav">Take me to top</a></span>
+    </body>
+    <script src="app.js"></script>
+    </html>

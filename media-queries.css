@@ -1,0 +1,138 @@
+/* MEDIA QUERIES FOR MOBILE */
+@media only screen and (max-width: 550px) {
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0;
+    max-height: none;
+  }
+
+  nav > h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  nav > ul {
+    /* margin-bottom: 2rem; */
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  nav > ul > li {
+    width: 50%;
+    padding-bottom: 1.5rem;
+    /* align-self: center; */
+  }
+
+  nav >ul>li:nth-last-child(1),   nav >ul>li:nth-last-child(2)  {
+    padding-bottom: 0;
+  }
+
+  /* ACTIVITIES */
+  .activity {
+    min-width: 100%;
+  }
+  /* GUIDE */
+  .guide-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .guide-wrapper img {
+    width: 100%;
+    max-width: 26rem;
+    max-height: 25rem;
+
+  }
+
+  .guide-info {
+    margin-top: 3rem;
+    padding-left: 0!important;
+  }
+
+  /* BE IN TOUCH */
+  .form-wrapper {
+    padding:2rem 1rem;
+    padding-top: 0;
+    width: 90%;
+  }
+
+  .form-wrapper p {
+    max-width: 100%;
+    margin: auto 0;
+  }
+  .contact-us {
+    padding: 2rem 0;
+  }
+  .contact-us-form {
+    max-width: 80%;
+  }
+
+}
+@media only screen and (max-width: 700px) {
+  /* NAV */
+  nav {
+    padding: 1rem 3rem;
+  }
+
+  nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  nav > ul > li {
+    width: 50%;
+    padding-bottom: 1.5rem;
+  }
+
+  nav >ul>li:nth-last-child(1),   nav >ul>li:nth-last-child(2)  {
+    padding-bottom: 0;
+  }
+
+  /* HERO */
+  .hero h2 {
+    line-height: 4rem;
+
+  }
+
+  /* ACTIVITIES */
+  .activities .activities-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activity {
+    max-width: 80%;
+  }
+
+  /* GUIDE */
+  .guide-wrapper {
+    min-width: none;
+    padding: 3rem;
+  }
+
+  .guide-info {
+    padding-left: 3rem;
+  }
+  /* BE IN TOUCH */
+  .form-wrapper {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-wrapper p {
+    max-width: 85%;
+    margin: 3rem 0;
+  }
+
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Summer  View';
+    src: url('SummerView.eot');
+    src: url('SummerView.eot?#iefix') format('embedded-opentype'),
+        url('SummerView.woff2') format('woff2'),
+        url('SummerView.woff') format('woff'),
+        url('SummerView.ttf') format('truetype'),
+        url('SummerView.svg#SummerView') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

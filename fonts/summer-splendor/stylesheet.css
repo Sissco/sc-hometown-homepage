@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Summer Splendor';
+    src: url('SummerSplendor.eot');
+    src: url('SummerSplendor.eot?#iefix') format('embedded-opentype'),
+        url('SummerSplendor.woff2') format('woff2'),
+        url('SummerSplendor.woff') format('woff'),
+        url('SummerSplendor.ttf') format('truetype'),
+        url('SummerSplendor.svg#SummerSplendor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
