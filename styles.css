@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Summer  View";
-  src: url("./fonts/summer-view/SummerView.eot");
-  src: url("./fonts/summer-view/SummerView.eot?#iefix") format("embedded-opentype"),
-  url("./fonts/summer-view/SummerView.woff2") format("woff2"),
-  url("./fonts/summer-view/SummerView.woff") format("woff"),
-  url("./fonts/summer-view/SummerView.ttf") format("truetype"),
-  url("./fonts/summer-view/SummerView.svg#SummerView") format("svg");
+  font-family: 'Summer  View';
+  src: url('./fonts/summer-view/SummerView.eot');
+  src: url('./fonts/summer-view/SummerView.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/summer-view/SummerView.woff2') format('woff2'),
+  url('./fonts/summer-view/SummerView.woff') format('woff'),
+  url('./fonts/summer-view/SummerView.ttf') format('truetype'),
+  url('./fonts/summer-view/SummerView.svg#SummerView') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
   font-family: 'Hello Summer';
-  src: url('../fonts/hello-summer/HelloSummerRegular.eot');
-  src: url('../fonts/hello-summer/HelloSummerRegular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/hello-summer/HelloSummerRegular.woff2') format('woff2'),
-  url('../fonts/hello-summer/HelloSummerRegular.woff') format('woff'),
-  url('../fonts/hello-summer/HelloSummerRegular.ttf') format('truetype'),
-  url('../fonts/hello-summer/HelloSummerRegular.svg#HelloSummerRegular') format('svg');
+  src: url('./fonts/hello-summer/HelloSummerRegular.eot');
+  src: url('./fonts/hello-summer/HelloSummerRegular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/hello-summer/HelloSummerRegular.woff2') format('woff2'),
+  url('./fonts/hello-summer/HelloSummerRegular.woff') format('woff'),
+  url('./fonts/hello-summer/HelloSummerRegular.ttf') format('truetype'),
+  url('./fonts/hello-summer/HelloSummerRegular.svg#HelloSummerRegular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
   font-family: 'Summer Splendor';
-  src: url('../fonts/summer-splendor/SummerSplendor.eot');
-  src: url('../fonts/summer-splendor/SummerSplendor.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/summer-splendor/SummerSplendor.woff2') format('woff2'),
-  url('../fonts/summer-splendor/SummerSplendor.woff') format('woff'),
-  url('../fonts/summer-splendor/SummerSplendor.ttf') format('truetype'),
-  url('../fonts/summer-splendor/SummerSplendor.svg#SummerSplendor') format('svg');
+  src: url('./fonts/summer-splendor/SummerSplendor.eot');
+  src: url('./fonts/summer-splendor/SummerSplendor.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/summer-splendor/SummerSplendor.woff2') format('woff2'),
+  url('./fonts/summer-splendor/SummerSplendor.woff') format('woff'),
+  url('./fonts/summer-splendor/SummerSplendor.ttf') format('truetype'),
+  url('./fonts/summer-splendor/SummerSplendor.svg#SummerSplendor') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -133,7 +133,7 @@ nav > ul > li > a {
 }
 /* HERO */
 .hero {
-  background-image: url("./assets/lisbon-view.jpeg");
+  background-image: url('./assets/lisbon-view.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
