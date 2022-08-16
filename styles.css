@@ -328,7 +328,7 @@ nav > ul > li > a {
   margin-right: 4rem;
   line-height: 6rem;
   text-align: center;
-  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25)
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 span.underline {
@@ -353,6 +353,7 @@ span.underline {
 .contact-us-form label {
   font-size: 2.4rem;
   padding: 1rem 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contact-us-form label:first-of-type {
