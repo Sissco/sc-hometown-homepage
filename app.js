@@ -22,7 +22,21 @@ const countChars = () => {
 
 textArea.addEventListener('input', countChars)
 
+let formBtn = document.getElementById('btnsubmit');
+
+// FORM BUTTON EVENT LISTENER
+formBtn.addEventListener('click', resetVal);
+
 // Reset form values after submission
 function resetVal() {
-  document.getElementById('form1').reset();
+  const nameArea = document.getElementById('name');
+  const inputArea = document.getElementById('email');
+  const formField = document.getElementById('form-field');
+
+  if (nameArea.value && inputArea.value && textArea.value) {
+    formField.submit();
+    formField.reset();
+  }
+
+  return false;
 }

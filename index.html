@@ -66,7 +66,10 @@
         <p class="disable-selection">Be in touch if you would like to know more about reservations, booking, tour guide routes, prices and other info.
           <br><span class="underline">We aim to reply in a day.</span></p>
 
-          <form class="contact-us-form" id="form1" action="https://formspree.io/f/xrgdgonv" method="POST" target="_blank" onsubmit="resetVal()">
+          <form class="contact-us-form" id="form-field" action="https://formspree.io/f/xrgdgonv" method="POST">
+            <!--  onsubmit="resetVal()" -->
+            <label for="name">Name</label>
+            <input type="text" name="fullName" id="name" placeholder="First & last name here" required>
             <label for="email" class="disable-selection">Email</label>
             <input type="email" id="email" name="email" placeholder="Write your email here" required>
             <label for="message-textbox" class="disable-selection">Message</label>
@@ -75,7 +78,7 @@
           </form>
 
         </div>
-        <button type="submit" class="submit-btn" name="button" form="form1" >Send message</button>
+        <button type="submit" id="btnsubmit" class="submit-btn" name="button" form="form-field" >Send message</button>
       </section>
 
       <footer class="disable-selection">
